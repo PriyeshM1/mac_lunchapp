@@ -10,3 +10,4 @@ GET     /                           controllers.HomeController.index
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 GET     /welcome                    controllers.WelcomeController.welcome
+GET     /sandwiches                 controllers.SandwichController.sandwiches
